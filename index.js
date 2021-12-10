@@ -91,6 +91,8 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(3000, '127.0.0.1', () => {
-  console.log('Listening to requests on port 8000');
+const PORT = 3000
+
+server.listen(PORT, '127.0.0.1', () => {
+  console.log(`Listening to requests on port ${PORT}`);
 });
