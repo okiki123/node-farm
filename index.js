@@ -54,7 +54,6 @@ const server = http.createServer((req, res) => {
       'Content-type': 'application/json'
     });
     res.end(data);
-
     // Not found
   } else {
     res.writeHead(404, {
