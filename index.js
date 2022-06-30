@@ -19,7 +19,7 @@ const url = require('url');
 //      console.log(data)
 
 //      fs.writeFile('./txt/final.txt', `${data}`, err => {
-        // console.log('File has been written');
+console.log('File has been written');
 
 const server = http.createServer((req, res) => {
 
